@@ -17,15 +17,15 @@ Arquitetura: API-Driven, comunicação assíncrona (Fetch / AJAX)
 | Estrutura do Projeto |
 
 pizzassalgadas.html
-	Página de listagem de pizzas salgadas
+	
 pizzasdoces.html
-	Página de listagem de pizzas doces
+	
 cardapio.html
-	Página principal do cardápio
+	
 cadastro.html
-	Formulário de cadastro de novos clientes
+	
 login.html
-	Página de autenticação de usuários
+	
 
 | Destaques Técnicos |
 
