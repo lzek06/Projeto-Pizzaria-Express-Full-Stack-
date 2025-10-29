@@ -1,28 +1,47 @@
-🍕 Pizzaria Express: Sistema de Cardápio e Pedidos Online (Full Stack)
-Visão Geral:
+|Visão Geral |
 
-Esta aplicação simula um sistema de pedidos online, demonstrando a arquitetura moderna de separação de responsabilidades (API-Driven). O projeto é focado na comunicação assíncrona para carregamento de dados e registro de novos usuários.
+O Pizzaria Express é um sistema full stack que simula um ambiente de pedidos online para uma pizzaria, desenvolvido para demonstrar uma arquitetura moderna baseada em API e separação clara de responsabilidades entre o Frontend e o Backend.
+O projeto enfatiza o uso de comunicação assíncrona para o consumo e envio de dados, além de ilustrar boas práticas na integração entre camadas de aplicação.
 
-Arquitetura Técnica (VB.NET & JavaScript):
+| Ficha Técnica |
+Backend (VB.NET / ASP.NET Web API)
+Responsável pelas regras de negócio, controle de fluxo e persistência de dados.
+Exposição de endpoints RESTful para cadastro de clientes e consulta de cardápio em formato JSON.
 
-Backend (VB.NET / ASP.NET API): Responsável por todas as regras de negócio e persistência de dados. A API fornece endpoints que permitem o cadastro de clientes e a consulta do cardápio em formato JSON.
+| Tecnologias Utilizadas |
 
-Frontend (HTML/CSS/JavaScript): A interface utiliza HTML e CSS para o design, e JavaScript puro para consumir a API. O cardápio (pizzassalgadas.html e pizzasdoces.html) é gerado dinamicamente com os dados fornecidos pelo Backend.
+Backend: VB.NET, ASP.NET Web API, SQL Server
+Frontend: HTML5, CSS3, JavaScript
+Arquitetura: API-Driven, comunicação assíncrona (Fetch / AJAX)
 
-Ação CRUD Demonstrada: POST (Cadastro de Clientes) e GET (Listagem do Cardápio).
+| Estrutura do Projeto |
 
-Tecnologias Utilizadas:
-VB.NET
-ASP.NET Web API
-JavaScript
-HTML5 / CSS3
-SQL Server 
+pizzassalgadas.html
+	Página de listagem de pizzas salgadas
+pizzasdoces.html
+	Página de listagem de pizzas doces
+cardapio.html
+	Página principal do cardápio
+cadastro.html
+	Formulário de cadastro de novos clientes
+login.html
+	Página de autenticação de usuários
 
-Arquivos do Projeto:
+| Destaques Técnicos |
 
-[pizzassalgadas.html](https://github.com/user-attachments/files/23136343/pizzassalgadas.html)
-[login.html](https://github.com/user-attachments/files/23136346/login.html)
-[cardapio.html](https://github.com/user-attachments/files/23136345/cardapio.html)
-[cadastro.html](https://github.com/user-attachments/files/23136344/cadastro.html)
-[pizzasdoces.html](https://github.com/user-attachments/files/23136342/pizzasdoces.html)
+Arquitetura orientada a serviços (API-Driven).
+Comunicação assíncrona entre cliente e servidor.
+Consumo de dados em formato JSON.
+Separação clara entre camadas de aplicação (Frontend e Backend).
+Base sólida para evolução com novas funcionalidades e integração de autenticação.
 
+| Possíveis Extensões Futuras |
+
+Implementação de autenticação segura (JWT ou Cookies).
+Ampliação das operações CRUD (PUT e DELETE).
+Criação de painel administrativo para gerenciamento de pedidos e produtos.Integração com frameworks modernos de frontend (React, Vue ou Angular).
+Migração para arquitetura SPA (Single Page Application).
+
+ | Objetivo do Projeto |
+ 
+Demonstrar a construção de uma aplicação web completa utilizando tecnologias consolidadas, com foco em boas práticas de desenvolvimento, modularidade e clareza de arquitetura.
